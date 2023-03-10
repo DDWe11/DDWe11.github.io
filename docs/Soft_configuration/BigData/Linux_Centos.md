@@ -18,20 +18,19 @@ title:Linux_CentOS 环境配置
 >
 > 系统环境:MacOS Venture 13.2
 
-**痛点:** 由于绝大部分同学使用的PC环境都是windows,所以老师上课讲解展示时使用的都是windows,然而使用mac的同学往往因为系统环境配置的问题,四处请教但不断碰壁,这也是我做这个分享的初衷,希望可以帮助到大家
+痛点: 由于绝大部分同学使用的PC环境都是windows,所以老师上课讲解展示时使用的都是windows,然而使用mac的同学往往因为系统环境配置的问题,四处请教但不断碰壁,这也是我做这个分享的初衷,希望可以帮助到大家
 
-**版本:**为了避免不必要的麻烦我们尽量使用同时期(相同版本)的软件作为自己配置环境
+版本:为了避免不必要的麻烦我们尽量使用同时期(相同版本)的软件作为自己配置环境
 
 - 虚拟机: VMware Fusion Pro
 
-![](Midea_BD/VMware.jpg){width="300"}
+![](Midea_BD/VMware.jpg)
 
 - Linux平台:Cent OS 7(需下载ISO纯净版)
 - 远程shell平台:FinalShell
 - JDK版本:jdk-8u162-linux-arm64-vfp-hflt (注意是arm64,这里根据chip的芯片选择)
 - Hadoop:Hadoop 2.7.3 tar.gz(注意文件名后缀,Linux下的包)
 
-==提供下载链接供大家使用:==
 
 ## 安装虚拟机运行Cent OS
 
@@ -39,13 +38,13 @@ title:Linux_CentOS 环境配置
 
 ​		虚拟机（Virtual Machine）指通过软件模拟的具有完整硬件系统功能的、运行在一个完全隔离环境中的完整计算机系统。 在实体计算机中能够完成的工作在虚拟机中都能够实现。 在计算机中创建虚拟机时，需要将实体机的部分硬盘和内存容量作为虚拟机的硬盘和内存容量。每个虚拟机都有独立的CMOS、硬盘和操作系统，可以像使用实体机一样对虚拟机进行操作. 总结：虚拟机具有独立内存、硬盘容量、cup，是一个完整计算机系统，具有优点，如果在使用虚拟机的过程中，出现损坏，或者故障，只需要还原虚拟机设备，就会释放虚拟机资源，重新配置虚拟机，更加方便使用。
 
-![begin1](Midea_BD/begin1.jpg){width="300"}
+![begin1](Midea_BD/begin1.jpg)
 
-![bengin4](Midea_BD/bengin4.jpg){width="300"}
+![bengin4](Midea_BD/bengin4.jpg)
 
-![begin2](Midea_BD/begin2.jpg){width="300"}
+![begin2](Midea_BD/begin2.jpg)
 
-![begin3](Midea_BD/begin3.jpg){width="300"}
+![begin3](Midea_BD/begin3.jpg)
 
 点击`finish`进入centos安装页面
 
@@ -53,29 +52,29 @@ title:Linux_CentOS 环境配置
 
 我们选择英文进入
 
-![](Midea_BD/cent1.jpg){width="300"}
+![](Midea_BD/cent1.jpg)
 
 - 这里就是安装主页面,我们一共需要修改三个配置其余全是默认即可(Time,Installation Destination,Root Password)
 
-![cent2](Midea_BD/cent2.jpg){width="300"}
+![cent2](Midea_BD/cent2.jpg)
 
 - time(由于设置中没有北京,我们选择Asia,shanghai)
 
-  ![cent3](Midea_BD/cent3.jpg){width="300"}
+  ![cent3](Midea_BD/cent3.jpg)
 
 - Installation Destination
 
-  ![cent4](Midea_BD/cent4.jpg){width="300"}
+  ![cent4](Midea_BD/cent4.jpg)
 
 - Root Password
 
-  ![cent5](Midea_BD/cent5.jpg){width="300"}
+  ![cent5](Midea_BD/cent5.jpg)
 
 - 配置完成点击`Begin Installtion`进入Linux环境
 
   - 账号默认是root,密码是刚才设置的(没有显示,凭感觉输入后回车)
 
-  ![cent6](Midea_BD/cent6.jpg){width="300"}
+  ![cent6](Midea_BD/cent6.jpg)
 
 - **基础配置**
   - 建议分配内存4GB,核心数量为4核心,硬盘空间30GB
@@ -96,7 +95,7 @@ title:Linux_CentOS 环境配置
 [root@localhost ~]# systemctl status firewalld
 ```
 
-![osset1](Midea_BD/osset1.jpg){width="300"}
+![osset1](Midea_BD/osset1.jpg)
 
 #### 3.2 禁用selinux
 
@@ -110,7 +109,7 @@ title:Linux_CentOS 环境配置
 [root@localhost ~]# cat /etc/selinux/config
 ```
 
-![osset2](Midea_BD/osset2.jpg){width="300"}
+![osset2](Midea_BD/osset2.jpg)
 
 #### 3.3 网络配置
 
@@ -118,7 +117,7 @@ title:Linux_CentOS 环境配置
 
 > Virtual Machine -> Network Adapter->NAT
 
-![osset3](Midea_BD/osset3.jpg){width="300"}
+![osset3](Midea_BD/osset3.jpg)
 
 ##### 3.3.2 获得固态ip以及VMnet ip和netmask
 
@@ -131,7 +130,7 @@ title:Linux_CentOS 环境配置
 range  192.168.46.128 -- 192.168.46.254; 在这个区间都可以
 ```
 
-![osset4](Midea_BD/osset4.JPG){width="300"}
+![osset4](Midea_BD/osset4.JPG)
 
 ###### (2) 获得 VMnet8的 ip和 netmask
 
@@ -142,7 +141,7 @@ ip:192.168.46.2
 netmask:255.255.255.0
 ```
 
-![osset5](Midea_BD/osset5.PNG){width="300"}
+![osset5](Midea_BD/osset5.PNG)
 
 ##### 3.3.3 CentOS 7 虚拟网络配置
 
@@ -153,7 +152,7 @@ netmask:255.255.255.0
 [root@localhost network-scripts]# ls
 ```
 
-![osset6](Midea_BD/osset6.jpg){width="300"}
+![osset6](Midea_BD/osset6.jpg)
 
 ```shell
 [root@localhost network-scripts]# vi ifcfg-ensxx(根据自己选择)
@@ -166,7 +165,7 @@ DNS1=114.114.114.114
 DNS2=8.8.8.8
 ```
 
-![osset7](Midea_BD/osset7.jpg){width="300"}
+![osset7](Midea_BD/osset7.jpg)
 
 ```
 重启网络：
@@ -175,7 +174,7 @@ systemctl restart network.service
 ip addr  ----查询ip地址
 ```
 
-![osset8](Midea_BD/osset8.jpg){width="300"}
+![osset8](Midea_BD/osset8.jpg)
 
 ``` 
 配置端口(为后期远程连接shell)
@@ -184,20 +183,27 @@ ip addr  ----查询ip地址
 [root@localhost ~]# netstat -tln | grep 22
 ```
 
-![osset9](Midea_BD/osset9.jpg){width="300"}
+![osset9](Midea_BD/osset9.jpg)
 
 #### 3.4 连接shell
 
 - 创建文件夹名为Hadoop,创建ssh(linux)连接
 
-![shell](Midea_BD/shell.jpg){width="300"}
+![shell](Midea_BD/shell.jpg)
 
 - 添加虚拟机信息
   - 名称:与虚拟机信息一致,可以在   Virtual Machine -> Get Info查看
   - 主机:刚才添加的IPADDR一致
 
-![shell1](Midea_BD/shell1.jpg){width="300"}
+![shell1](Midea_BD/shell1.jpg)
 
 - 点击确认,稍等即可链接到虚拟机
 
-![shell2](Midea_BD/shell2.jpg){width="300"}
+![shell2](Midea_BD/shell2.jpg)
+
+## 下载链接
+```
+链接: https://pan.baidu.com/s/11IRJl4EQjEM1ZZ7ihfT3Dw?pwd=aspm 提取码: aspm 
+--来自百度网盘超级会员v3的分享
+```
+

@@ -6,7 +6,7 @@ site_description: 段杰文的个人网站
 
 # [Navigtion]
 nav:
-  - BLOG:
+  - 博客:
       - LECTURE/index.md
       - Linux:
           - Linux: LECTURE/Linux/linux.md
@@ -29,10 +29,11 @@ nav:
           - 6 VSCode代码运行自动化: LECTURE/vscode-cpp/6_VSCode代码运行自动化.md
           - 7 用VSCode调试Cpp代码: LECTURE/vscode-cpp/7_用VSCode调试Cpp代码.md
       - 在macOS上用VSCode写Python: LECTURE/vscode-python/vscode-python.md
-  - CONFIGURATION:
+  - 环境配置:
+      - Soft_configuration/index.md
       - BigData:
-          -Linux_CentOS 环境配置: Soft_configuration/BigData/Linux_Centos.md
-  - ABOUT:
+          - Linux_CentOS 环境配置: Soft_configuration/BigData/Linux_Centos.md
+  - 关于:
       - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
       - 介绍: ABOUT/intruction.md
       - 文章编写帮助: ABOUT/help.md
@@ -47,13 +48,13 @@ theme:
       primary: indigo # 上方的
       accent: orange # 链接等可交互元件的高亮色
       toggle:
-        icon: material/brightness-4 # 图标
+        icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
       primary: indigo
       accent: orange
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-sunny
         name: 切换至日间模式
   features:
     - navigation.tabs # 使用Tab来进行分类
@@ -81,11 +82,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/DDWe11
       name: GitHub | DDWe11
-    - icon: fontawesome/solid/envelope
-      link: docs/ABOUT/intruction.md
-      name: get info
-    - icon: fontawesome/brand/weibo
-      name: search user name "DDWe11"
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<Duanjw2002@163.com> 
+      name: Mail to author
 
 # [Extensions]
 plugins:
@@ -101,7 +100,7 @@ markdown_extensions:
   - attr_list # 给图片后面添加{width="300"}设置大小
   - toc:
       permalink: true # 固定标题位置为当前位置
-  - pymdownx.highlight:# 代码块高亮
+  - pymdownx.highlight: # 代码块高亮
       # linenums: true # 显示行号
       # auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
