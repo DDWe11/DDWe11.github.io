@@ -7,35 +7,36 @@ site_description: 段杰文的个人网站
 # [Navigtion]
 nav:
   - BLOG:
-    - LECTURE/index.md 
-    - Linux:
-      - Linux: LECTURE/Linux/linux.md
-      - 命令行入门精简版: LECTURE/Linux/commands-concise.md
-    - Markdown:
-      - Markdown讲座: LECTURE/Markdown/markdown.md
-      - VSCode及插件安装: LECTURE/Markdown/vscode-extension.md
-    - Git:
-      - Git: LECTURE/Git/git.md
-      - Git例子: LECTURE/Git/git-demos.md
-      - Git合作: LECTURE/Git/git-teamwork.md
-      - Windows安装Git: LECTURE/Git/windows-install.md
-    - 在macOS上用VSCode写C++代码:
-      - 0 介绍: LECTURE/vscode-cpp/0_about.md
-      - 1 前言和课程说明: LECTURE/vscode-cpp/1_前言和课程说明.md
-      - 2 认识macOS的文件系统: LECTURE/vscode-cpp/2_认识macOS的文件系统.md
-      - 3 认识程序: LECTURE/vscode-cpp/3_认识程序.md
-      - 4 认识终端和shell: LECTURE/vscode-cpp/4_认识终端和shell.md
-      - 5 开启VSCode的大门: LECTURE/vscode-cpp/5_开启VSCode的大门.md
-      - 6 VSCode代码运行自动化: LECTURE/vscode-cpp/6_VSCode代码运行自动化.md
-      - 7 用VSCode调试Cpp代码: LECTURE/vscode-cpp/7_用VSCode调试Cpp代码.md
-    - 在macOS上用VSCode写Python: LECTURE/vscode-python/vscode-python.md
+      - LECTURE/index.md
+      - Linux:
+          - Linux: LECTURE/Linux/linux.md
+          - 命令行入门精简版: LECTURE/Linux/commands-concise.md
+      - Markdown:
+          - Markdown讲座: LECTURE/Markdown/markdown.md
+          - VSCode及插件安装: LECTURE/Markdown/vscode-extension.md
+      - Git:
+          - Git: LECTURE/Git/git.md
+          - Git例子: LECTURE/Git/git-demos.md
+          - Git合作: LECTURE/Git/git-teamwork.md
+          - Windows安装Git: LECTURE/Git/windows-install.md
+      - 在macOS上用VSCode写C++代码:
+          - 0 介绍: LECTURE/vscode-cpp/0_about.md
+          - 1 前言和课程说明: LECTURE/vscode-cpp/1_前言和课程说明.md
+          - 2 认识macOS的文件系统: LECTURE/vscode-cpp/2_认识macOS的文件系统.md
+          - 3 认识程序: LECTURE/vscode-cpp/3_认识程序.md
+          - 4 认识终端和shell: LECTURE/vscode-cpp/4_认识终端和shell.md
+          - 5 开启VSCode的大门: LECTURE/vscode-cpp/5_开启VSCode的大门.md
+          - 6 VSCode代码运行自动化: LECTURE/vscode-cpp/6_VSCode代码运行自动化.md
+          - 7 用VSCode调试Cpp代码: LECTURE/vscode-cpp/7_用VSCode调试Cpp代码.md
+      - 在macOS上用VSCode写Python: LECTURE/vscode-python/vscode-python.md
   - CONFIGURATION:
-    - 
+      - BigData:
+          -Linux_CentOS 环境配置: Soft_configuration/BigData/Linux_Centos.md
   - ABOUT:
-    - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
-    - 介绍: ABOUT/intruction.md
-    - 文章编写帮助: ABOUT/help.md
-    - 测试文档: ABOUT/test.md
+      - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
+      - 介绍: ABOUT/intruction.md
+      - 文章编写帮助: ABOUT/help.md
+      - 测试文档: ABOUT/test.md
 
 # [UI]
 ## [top]
@@ -89,7 +90,7 @@ extra:
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
-    # insider已经支持中文的分词搜索了 https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/
+      # insider已经支持中文的分词搜索了 https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/
       lang:
         - en
         - ja
@@ -100,7 +101,7 @@ markdown_extensions:
   - attr_list # 给图片后面添加{width="300"}设置大小
   - toc:
       permalink: true # 固定标题位置为当前位置
-  - pymdownx.highlight: # 代码块高亮
+  - pymdownx.highlight:# 代码块高亮
       # linenums: true # 显示行号
       # auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件

@@ -1,5 +1,5 @@
 ---
-title:Linux CentOS 环境配置
+title:Linux_CentOS 环境配置
 ---
 
 # Linux CentOS 环境配置
