@@ -13,7 +13,7 @@ $ cd ~/Desktop
 $ mkdir notes
 $ cd notes
 $ git init
-Initialized empty Git repository in /Users/yangxijie/Desktop/notes/.git/
+Initialized empty Git repository in /Users/jevon/Desktop/notes/.git/
 ```
 
 ### 添加一个文件
@@ -287,14 +287,14 @@ Fast-forward
 $ git log
  Untracked files:
 commit e30ff7a9797f9577b056c91cdbc46b37bff71168 (HEAD -> main, sayHello)
-Author: yxj <564197835@qq.com>
-Date:   Fri May 21 18:37:09 2021 +0800
+Author: Duan Jiewen <Duanjw2002@163.com>
+Date:   Fri May 22 18:37:09 2021 +0800
 
     add func sayHello
 
 commit 605051f10e676b477d5f101dca5828cf34165ab6
-Author: yxj <564197835@qq.com>
-Date:   Fri May 21 18:30:57 2021 +0800
+Author: Duan Jiewen <Duanjw2002@163.com>
+Date:   Fri May 22 18:30:57 2021 +0800
 
     add README
 ```

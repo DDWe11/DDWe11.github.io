@@ -4,10 +4,10 @@ title: Git讲座
 
 # Git讲座
 
-> `v1.0` 210523 更新视频教程
+<!-- > `v1.0` 210523 更新视频教程
 
 > [Bilibili视频教程](https://www.bilibili.com/video/BV1eh411v7gt)
-> 
+>  -->
 > [Git实例](./git-demos.md)
 
 ## 为什么要用Git
@@ -37,7 +37,7 @@ title: Git讲座
 
 `Advanced`打开`Show all filename extensions`
 
-`Sidebar`打开`Hard disks`从而看到挂载的磁盘，打开你的家目录（一个房子的图标，我的是`yangxijie`）从而看到家目录
+`Sidebar`打开`Hard disks`从而看到挂载的磁盘，打开你的家目录（一个房子的图标，我的是`jevon`）从而看到家目录
 
 #### 继续调整访达
 
@@ -63,7 +63,7 @@ title: Git讲座
 
 `System`：一些系统（`macOS`）的文件，没事儿别乱碰就好了
 
-`User`：个人的文件就在这里。其中`/User/yangxijie`（或者你的用户名）是你的家目录，也可以直接在边栏点击打开。
+`User`：个人的文件就在这里。其中`/User/jevon`（或者你的用户名）是你的家目录，也可以直接在边栏点击打开。
 
 ##### 观察树状结构
 
@@ -194,7 +194,7 @@ git config --global user.name <your name>
 git config --global user.email <your email>
 ```
 
-由于Git会记录你的每一次操作，这些记录里面需要有操作者的信息，你在你的电脑上用，所以需要给你电脑上的Git配置你的名字和email。这里名字就用全名是比较好的，比如`Xijie Yang`这样，也可以用简写，比如`yxj`（并不规范）。这里添加名字和邮箱是方便以后别人看了你写的代码能够找到你…需要写真实的名字和邮箱
+由于Git会记录你的每一次操作，这些记录里面需要有操作者的信息，你在你的电脑上用，所以需要给你电脑上的Git配置你的名字和email。这里名字就用全名是比较好的，比如`Duan Jiewen`这样，也可以用简写，比如`djw`（并不规范）。这里添加名字和邮箱是方便以后别人看了你写的代码能够找到你…需要写真实的名字和邮箱
 
 ### Git基础
 
@@ -204,7 +204,7 @@ git config --global user.email <your email>
 
 ```
 $ git init
-Initialized empty Git repository in /Users/yangxijie/Desktop/git_notes/.git/
+Initialized empty Git repository in /Users/jevon/Desktop/git_notes/.git/
 ```
 
 该文件夹下会多出来一个`.git/`的文件夹，这个文件夹就是Git生成的，存储用来管理这个文件夹内文件的信息。我们在之后是不应该对这个文件夹内的东西做任何更改的。（复习：想要在Finder看到点开头的文件或文件夹，使用快捷键 ⇧⌘.）

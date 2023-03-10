@@ -1,5 +1,5 @@
 ---
-title: Linux讲座
+title: Linux
 ---
 
 # Linux

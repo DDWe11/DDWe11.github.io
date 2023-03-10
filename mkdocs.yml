@@ -6,7 +6,7 @@ site_description: 段杰文的个人网站
 
 # [Navigtion]
 nav:
-  - 讲稿:
+  - BLOG:
     - LECTURE/index.md 
     - Linux:
       - Linux: LECTURE/Linux/linux.md
@@ -29,10 +29,12 @@ nav:
       - 6 VSCode代码运行自动化: LECTURE/vscode-cpp/6_VSCode代码运行自动化.md
       - 7 用VSCode调试Cpp代码: LECTURE/vscode-cpp/7_用VSCode调试Cpp代码.md
     - 在macOS上用VSCode写Python: LECTURE/vscode-python/vscode-python.md
-  - 关于:
+  - CONFIGURATION:
+    - 
+  - ABOUT:
     - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
+    - 介绍: ABOUT/intruction.md
     - 文章编写帮助: ABOUT/help.md
-    - 网站构建: ABOUT/build.md
     - 测试文档: ABOUT/test.md
 
 # [UI]
@@ -44,13 +46,13 @@ theme:
       primary: indigo # 上方的
       accent: orange # 链接等可交互元件的高亮色
       toggle:
-        icon: material/weather-night # 图标
+        icon: material/brightness-4 # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
       primary: indigo
       accent: orange
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-7
         name: 切换至日间模式
   features:
     - navigation.tabs # 使用Tab来进行分类
@@ -68,16 +70,21 @@ edit_uri: edit/main/docs # 编辑按钮跳转的链接
 repo_url: https://github.com/DDWe11/DDWe11.github.io # 右上角点击跳转的链接
 repo_name: DDWe11.github.io # 右上角的名字
 ## [bottom-left corner]
-copyright: 段杰文 CC-BY-4.0 # 左下角的版权声明
+copyright: Duan Jiewen CC-BY-4.0 # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
-    # - icon: fontawesome/brands/bilibili
-    #   link: https://space.bilibili.com/24502827
-    #   name: Bilibili | 我不是小杰 # 鼠标悬浮提示
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/478619269
+      name: Bilibili | DDWe11 # 鼠标悬浮提示
     - icon: fontawesome/brands/github
       link: https://github.com/DDWe11
       name: GitHub | DDWe11
+    - icon: fontawesome/solid/envelope
+      link: docs/ABOUT/intruction.md
+      name: get info
+    - icon: fontawesome/brand/weibo
+      name: search user name "DDWe11"
 
 # [Extensions]
 plugins:

@@ -4,7 +4,7 @@ title: Git合作开发实例
 
 # Git合作开发实例：eesast开发
 
-说明：团队仓库名为`eesast`，个人仓库名为`yxj`
+说明：团队仓库名为`eesast`，个人仓库名为`djw`
 
 ## 将远程仓库下载、链接到本地
 
@@ -22,7 +22,7 @@ git clone <eesast.url> --origin eesast <project_new_name>
 
 ### fork仓库使得自己有push的权限
 
-在`GitHub`上操作，得到自己fork后的仓库链接`<yxj.url>`
+在`GitHub`上操作，得到自己fork后的仓库链接`<djw.url>`
 
 ### 进入clone后的仓库
 
@@ -35,7 +35,7 @@ cd <project>
 
 
 ```shell
-git remote add yxj <yxj.url>
+git remote add djw <djw.url>
 ```
 
 `add`后紧跟的是远程仓库的名字，可以自定义
@@ -45,7 +45,7 @@ git remote add yxj <yxj.url>
 ```shell
 git remote --verbose
 git remote --verbose show eesast
-git remote --verbose show yxj
+git remote --verbose show djw
 ```
 
 `--verbose`:`-v`
@@ -122,7 +122,7 @@ git fetch eesast
 ### push到自己的仓库
 
 ```shell
-git push yxj modify:modify
+git push djw modify:modify
 ```
 
 这里的语法是：`git push <远程主机> <本地分支>:<远程分支>`
@@ -132,7 +132,7 @@ git push yxj modify:modify
 也可以写作：
 
 ```shell
-(modify) git push yxj modify
+(modify) git push djw modify
 ```
 
 这里的语法是：`git push <远程主机> <远程分支>`
@@ -158,13 +158,13 @@ git push yxj modify:modify
 #### 方法二
 
 ```shell
-git push yxj --delete modify
+git push djw --delete modify
 ```
 
 #### 方法三
 
 ```shell
-git push yxj :modify
+git push djw :modify
 ```
 这里的语法是：`git push <远程主机> :<远程分支>`（注意和push到远端仓库做区分）
 
@@ -182,15 +182,15 @@ git push yxj :modify
 
 ### 可能遇到的问题
 
-使用`git fetch --all`将所有远端仓库（eesast和yxj）的最新“状况”拉取到本地
+使用`git fetch --all`将所有远端仓库（eesast和djw）的最新“状况”拉取到本地
 
-这时使用命令`git branch -a`查看所有分支，发现远端yxj的modify分支并没有删除
+这时使用命令`git branch -a`查看所有分支，发现远端djw的modify分支并没有删除
 
 这说明不能通过git fetch命令获取到分支删除的更新
 
-使用`git remote -v show yxj`查看分支状况，发现modify分支是陈旧的（stale）
+使用`git remote -v show djw`查看分支状况，发现modify分支是陈旧的（stale）
 
-使用`git remote prune yxj`删掉本地陈旧的远端分支（就是
+使用`git remote prune djw`删掉本地陈旧的远端分支（就是
 
 远端已经删除掉了但是本地还没删除掉的分支）
 
