@@ -98,7 +98,8 @@ title:Linux_CentOS 环境配置
 ![osset1](Midea_BD/osset1.jpg)
 
 #### 3.2 禁用selinux
-
+> 如果设置后,reboot系统特别卡,建议修改回默认,在重启即可解决
+> 
 ```shell
 #将SELINUX的值设置为disabled
 [root@localhost ~]# vi/etc/selinux/config
