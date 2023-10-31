@@ -1,5 +1,5 @@
 ---
-title:Spark & hadoop配置(23fall)
+title:大数据系统搭建与应用笔记
 ---
 
 # 大数据系统搭建与应用笔记
