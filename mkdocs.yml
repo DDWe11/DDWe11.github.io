@@ -33,7 +33,7 @@ nav:
       - Soft_configuration/index.md
       - BigData:
           - Linux_CentOS 环境配置: Soft_configuration/BigData/Linux_Centos.md
-          - 大数据系统搭建与应用笔记: Soft_configuration/BigData/DB_System.md
+          - 大数据系统搭建与应用笔记: Soft_configuration/BigData/23fall_Bigdata.md
   - 关于:
       - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
       - 介绍: ABOUT/intruction.md

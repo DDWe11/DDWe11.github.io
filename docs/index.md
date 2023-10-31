@@ -7,4 +7,4 @@
     - 移动端 点击左上角图标选择主题和文章
 - 搜索关键词以打开文章
 
-- 2023.10.31 [大数据配置文件](/docs/Soft_configuration/BigData/BD_System.md)
+- 2023.10.31 [大数据配置文件](/docs/Soft_configuration/BigData/23fall_Bigdata.md)
