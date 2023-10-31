@@ -3,8 +3,6 @@ title: Linux
 ---
 
 # Linux
-> 转载自杨希杰关于linux的讲稿
-
 
 ## 正文
 
