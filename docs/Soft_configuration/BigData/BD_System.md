@@ -42,57 +42,57 @@ title: 大数据系统搭建与应用笔记
   
   虚拟机软件使用的是VMware
 
-  ![Pic_1](https://pic.imgdb.cn/item/653e1f19c458853aef73f58d.png)
+  ![Pic_1](Midea_BD/Pictures_25.png)
 
-  ![Pic_2](https://pic.imgdb.cn/item/653e1f1ac458853aef73f65b.png)
+  ![Pic_2](Midea_BD/Pictures_26.png)
 
-  ![Pic_3](https://pic.imgdb.cn/item/653e1f1ac458853aef73f6f8.png)
+  ![Pic_3](Midea_BD/Pictures_1.png)
 
-  ![Pic_4](https://pic.imgdb.cn/item/653e1f1ac458853aef73f820.png)
+  ![Pic_4](Midea_BD/Pictures_2.png)
 
-  ![Pic_5](https://pic.imgdb.cn/item/653e1f1ac458853aef73f920.png)
+  ![Pic_5](Midea_BD/Pictures_3.png)
 
-  ![Pic_6](https://pic.imgdb.cn/item/653e1f9bc458853aef7659f0.png)
+  ![Pic_6](Midea_BD/Pictures_4.png)
 
-  ![Pic_7](https://pic.imgdb.cn/item/653e1f9bc458853aef765b5d.png)
+  ![Pic_7](Midea_BD/Pictures_5.png)
 
-  ![Pic_8](https://pic.imgdb.cn/item/653e1f9bc458853aef765ba8.png)
+  ![Pic_8](Midea_BD/Pictures_6.png)
 
-  ![Pic_9](https://pic.imgdb.cn/item/653e1f9bc458853aef765c28.png)
+  ![Pic_9](Midea_BD/Pictures_7.png)
 
-  ![Pic_10](https://pic.imgdb.cn/item/653e1f9bc458853aef765ca5.png)
+  ![Pic_10](Midea_BD/Pictures_8.png)
 
-  ![Pic_11](https://pic.imgdb.cn/item/653e1fdec458853aef785e21.png)
+  ![Pic_11](Midea_BD/Pictures_9.png)
 
-  ![Pic_12](https://pic.imgdb.cn/item/653e1fdec458853aef785e78.png)
+  ![Pic_12](Midea_BD/Pictures_10.png)
 
-  ![Pic_13](https://pic.imgdb.cn/item/653e1fdec458853aef785ecf.png)
+  ![Pic_13](Midea_BD/Pictures_11.png)
 
-  ![Pic_14](https://pic.imgdb.cn/item/653e1fdec458853aef785f01.png)
+  ![Pic_14](Midea_BD/Pictures_12.png)
 
-  ![Pic_15](https://pic.imgdb.cn/item/653e1fdec458853aef785f59.png)
+  ![Pic_15](Midea_BD/Pictures_13.png)
 
-  ![Pic_16](https://pic.imgdb.cn/item/653e2014c458853aef792fda.png)
+  ![Pic_16](Midea_BD/Pictures_14.png)
 
-  ![Pci_17](https://pic.imgdb.cn/item/653e2014c458853aef7930ad.png)
+  ![Pci_17](Midea_BD/Pictures_15.png)
 
-  ![Pic_18](https://pic.imgdb.cn/item/653e2014c458853aef793196.png)
+  ![Pic_18](Midea_BD/Pictures_16.png)
 
-  ![Pic_19](https://pic.imgdb.cn/item/653e2014c458853aef7931e5.png)
+  ![Pic_19](Midea_BD/Pictures_17.png)
 
-  ![Pic_20](https://pic.imgdb.cn/item/653e2015c458853aef7932e1.png)
+  ![Pic_20](Midea_BD/Pictures_18.png)
 
-  ![Pic_21](https://pic.imgdb.cn/item/653e2099c458853aef7b1ea9.png)
+  ![Pic_21](Midea_BD/Pictures_19.png)
 
-  ![Pic_22](https://pic.imgdb.cn/item/653e209ac458853aef7b1f45.png)
+  ![Pic_22](Midea_BD/Pictures_20.png)
 
-  ![Pic_23](https://pic.imgdb.cn/item/653e209ac458853aef7b1fc7.png)
+  ![Pic_23](Midea_BD/Pictures_21.png)
 
-  ![Pic_24](https://pic.imgdb.cn/item/653e209ac458853aef7b208c.png)
+  ![Pic_24](Midea_BD/Pictures_22.png)
 
-  ![Pic_25](https://pic.imgdb.cn/item/653e209ac458853aef7b2188.png)
+  ![Pic_25](Midea_BD/Pictures_23.png)
 
-  ![Pic_26](https://pic.imgdb.cn/item/653e20bfc458853aef7ba2a1.png)
+  ![Pic_26](Midea_BD/Pictures_24.png)
 
   ​点击`reboot`后，虚拟机就创建完毕。为了操作上的简便，先使用这一台虚拟机进行[网络配置](#12-网络配置)，同时进行[时间同步](#2-时间同步)
 
@@ -102,13 +102,13 @@ title: 大数据系统搭建与应用笔记
 
   ​准备：关闭后，克隆虚拟机
 
-  ![Pic_27](https://pic.imgdb.cn/item/653e45edc458853aeff4bf5d.png)
+  ![Pic_27](Midea_DB/../Midea_BD/Clone_1.png)
 
-  ![Pic_28](https://pic.imgdb.cn/item/653e45edc458853aeff4bfb7.png)
+  ![Pic_28](Midea_DB/../Midea_BD/Clone_2.png)
 
-  ![Pic_29](https://pic.imgdb.cn/item/653e45eec458853aeff4c024.png)
+  ![Pic_29](Midea_DB/../Midea_BD/Clone_3.png)
 
-  ![Pic_30](https://pic.imgdb.cn/item/653e45eec458853aeff4c091.png)
+  ![Pic_30](Midea_DB/../Midea_BD/Clone_4.png)
 
   按此操作克隆出两个虚拟机，克隆完毕，需要修改内存上限为（2G或1G）
   分别在hadoop2和hadoop3进行以下操作：
@@ -301,9 +301,9 @@ title: 大数据系统搭建与应用笔记
   
   打开该虚拟机的虚拟网络编辑器：
 
-  ![Pic_31](https://pic.imgdb.cn/item/653e2ca7c458853aefa296ef.png)
+  ![Pic_31](Midea_BD/Net1.png)
 
-  ![Pic_32](https://pic.imgdb.cn/item/653e2ca7c458853aefa29713.png)
+  ![Pic_32](Midea_BD/Net2.png)
   
   可以得到以下信息
 
@@ -321,7 +321,7 @@ title: 大数据系统搭建与应用笔记
   vi /etc/sysconfig/network-scripts/ifcfg-ens33
   ```
 
-  ![Pic_33](https://pic.imgdb.cn/item/653e2ca7c458853aefa29788.png)
+  ![Pic_33](Midea_BD/Net3.png)
 
   ! 注意：**如果是ONBOOT = no 的话需要改成yes**，在配置文件下面加入
 
@@ -341,7 +341,7 @@ title: 大数据系统搭建与应用笔记
   ip addr  ----查询ip地址
   ```
 
-  ![Pic_34](https://pic.imgdb.cn/item/653e2ca7c458853aefa297d9.png)
+  ![Pic_34](Midea_BD/Net4.png)
   
   检测网络的是否连通：
 
@@ -360,13 +360,13 @@ title: 大数据系统搭建与应用笔记
   
   使用netstat方式查看端口是否存在（先安装见..)：
 
-  ![Pic_35](https://pic.imgdb.cn/item/653e324fc458853aefb5dab4.png)
+  ![Pic_35](Midea_BD/Net5.png)
   
   发现端口22在使用，便可以使用`FinalShell`中进行连接
 
-  ![Pic_36](https://pic.imgdb.cn/item/653e333fc458853aefb897cf.png)
+  ![Pic_36](Midea_BD/Net6.png)
 
-  ![Pic_37](https://pic.imgdb.cn/item/653e333ec458853aefb89328.png)
+  ![Pic_37](Midea_BD/Net7.png)
 
 - ##### **Docker 容器**
 
@@ -1198,7 +1198,7 @@ yum install net-tools -y
    	docker 容器：doker采用的是与主机端口映射的方式，所以应该是本地地址127.0.0.1:50070
    ```
 
-   ![](https://pic.imgdb.cn/item/653e7475c458853aef06fab7.png)
+   ![hadoop1](Midea_BD/hadoop1.png)
 
 #### 2.4 Spark
 
@@ -1531,19 +1531,19 @@ Anaconda**是一个开源的Python和R语言的发行版本，用于计算科学
 
   安装是引导式的（由于身边的设备都已经安装过，所以用其他图片大致代替）
 
-  ![](https://pic.imgdb.cn/item/653e87d4c458853aef816460.png)
+  ![conda1](Midea_BD/anaconda_1.png)
 
   一直点回车后，直到
 
-  ![](https://pic.imgdb.cn/item/653e87d4c458853aef816567.png)
+  ![conda2](Midea_BD/anaconda_2.png)
 
   输入yes后，选择anaconda安装路径，`/usr/local/developers/anaconda3`
 
-  ![](https://pic.imgdb.cn/item/653e87d5c458853aef816957.png)
+  ![conda3](Midea_BD/anaconda_3.png)
 
   中间也会有一个需要回复yes，这里是将环境变量加入到~/.bashrc中
 
-  ![](https://pic.imgdb.cn/item/653e87d5c458853aef816a12.png)
+  ![conda4](Midea_BD/anaconda_4.png)
 
   安装完毕后
 
@@ -1687,11 +1687,11 @@ Anaconda**是一个开源的Python和R语言的发行版本，用于计算科学
 
 - 在本机打开pycharm创建一个项目
 
-  ![](https://pic.imgdb.cn/item/653e8f5ac458853aefa084e4.png)
+  ![](Midea_BD/pycharm_1.jpg)
 
   选择`Previously configured interpreter`，点击旁边`...`
 
-  ![](https://pic.imgdb.cn/item/653e8f5ac458853aefa0853c.png)
+  ![](Midea_BD/pycharm_2.jpg)
 
   在左边选择`SSH Interpreter`，`New server configuration`
 
@@ -1703,17 +1703,17 @@ Anaconda**是一个开源的Python和R语言的发行版本，用于计算科学
   # Usrname ： root
   ```
 
-  ![](https://pic.imgdb.cn/item/653e8f5ac458853aefa08596.png)
+  ![](Midea_BD/pycharm_3.jpg)
 
   选择创建的虚拟环境的`python`，路径`/usr/local/developers/anaconda3/envs/bigdata/bin/python3.5`
 
-  ![](https://pic.imgdb.cn/item/653e8f5ac458853aefa08640.png)
+  ![](Midea_BD/pycharm_4.jpg)
 
-  ![](https://pic.imgdb.cn/item/653e8f5bc458853aefa086cc.png)
+  ![](Midea_BD/pycharm_5.jpg)
 
 ​`Remote project localtion`：就是映射在虚拟机的文件位置，点击`Create`创建项目，运行`main.py`
 
-![](https://pic.imgdb.cn/item/653e91a4c458853aefa7f6c4.png)
+![](Midea_BD/pycharm_6.png)
 
 说明配置完成
 
@@ -1772,7 +1772,7 @@ Anaconda**是一个开源的Python和R语言的发行版本，用于计算科学
 
 3. 同步文件,将文件远程映射到`linux`主机中
 
-   ![Pic_40](https://pic.imgdb.cn/item/65408d79c458853aefd27f6b.png)
+   ![Pic_40](Midea_BD/pycharm_7.png)
 
 4. 运行程序并查看结果
   
