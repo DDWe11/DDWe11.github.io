@@ -8,11 +8,11 @@ $$\nabla f(x) \in \mathbb{R}^n,$$
 
 and a regular \$ symbol.
 
-[](https://github.com/Yang-Xijie/yang-xijie.github.io)
+[](https://github.com/DDWe11/DDWe11.github.io)
 
-<https://github.com/Yang-Xijie/yang-xijie.github.io>
+<https://github.com/DDWe11/DDWe11.github.io>
 
-https://github.com/Yang-Xijie/yang-xijie.github.io
+https://github.com/DDWe11/DDWe11.github.io
 
 **bold** _iiii_
 
@@ -29,9 +29,9 @@ $\boldsymbol u$ $\boldsymbol{a}$
         - 3
             - 4
 
-![](../ME/media/頑張ります.png){width="300"}
+![](media/shangan.jpg){width="300"}
 
-![](../ME/media/頑張ります.png){width="50%"}
+![](media/shangan.jpg){width="50%"}
 
-![](../ME/media/頑張ります.png){width="40%"}
-![](../ME/media/頑張ります.png){width="40%"}
+![](media/shangan.jpg){width="40%"}
+![](media/shangan.jpg){width="40%"}
