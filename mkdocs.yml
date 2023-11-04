@@ -6,39 +6,100 @@ site_description: 段杰文的个人网站
 
 # [Navigtion]
 nav:
+  - 讲稿:
+    - LECTURE/index.md
+    - Linux:
+      - Linux: LECTURE/Linux/linux.md
+      - 命令行入门精简版: LECTURE/Linux/commands-concise.md
+    - Markdown:
+      - Markdown讲座: LECTURE/Markdown/markdown.md
+      - VSCode及插件安装: LECTURE/Markdown/vscode-extension.md
+    - Git:
+      - Git: LECTURE/Git/git.md
+      - Git例子: LECTURE/Git/git-demos.md
+      - Git合作: LECTURE/Git/git-teamwork.md
+      - Windows安装Git: LECTURE/Git/windows-install.md
+    - 在macOS上用VSCode写C++代码:
+      - 0 介绍: LECTURE/vscode-cpp/0_about.md
+      - 1 前言和课程说明: LECTURE/vscode-cpp/1_前言和课程说明.md
+      - 2 认识macOS的文件系统: LECTURE/vscode-cpp/2_认识macOS的文件系统.md
+      - 3 认识程序: LECTURE/vscode-cpp/3_认识程序.md
+      - 4 认识终端和shell: LECTURE/vscode-cpp/4_认识终端和shell.md
+      - 5 开启VSCode的大门: LECTURE/vscode-cpp/5_开启VSCode的大门.md
+      - 6 VSCode代码运行自动化: LECTURE/vscode-cpp/6_VSCode代码运行自动化.md
+      - 7 用VSCode调试Cpp代码: LECTURE/vscode-cpp/7_用VSCode调试Cpp代码.md
   - 博客:
-      - LECTURE/index.md
-      - Linux:
-          - Linux: LECTURE/Linux/linux.md
-          - 命令行入门精简版: LECTURE/Linux/commands-concise.md
-      - Markdown:
-          - Markdown讲座: LECTURE/Markdown/markdown.md
-          - VSCode及插件安装: LECTURE/Markdown/vscode-extension.md
-      - Git:
-          - Git: LECTURE/Git/git.md
-          - Git例子: LECTURE/Git/git-demos.md
-          - Git合作: LECTURE/Git/git-teamwork.md
-          - Windows安装Git: LECTURE/Git/windows-install.md
-      - 在macOS上用VSCode写C++代码:
-          - 0 介绍: LECTURE/vscode-cpp/0_about.md
-          - 1 前言和课程说明: LECTURE/vscode-cpp/1_前言和课程说明.md
-          - 2 认识macOS的文件系统: LECTURE/vscode-cpp/2_认识macOS的文件系统.md
-          - 3 认识程序: LECTURE/vscode-cpp/3_认识程序.md
-          - 4 认识终端和shell: LECTURE/vscode-cpp/4_认识终端和shell.md
-          - 5 开启VSCode的大门: LECTURE/vscode-cpp/5_开启VSCode的大门.md
-          - 6 VSCode代码运行自动化: LECTURE/vscode-cpp/6_VSCode代码运行自动化.md
-          - 7 用VSCode调试Cpp代码: LECTURE/vscode-cpp/7_用VSCode调试Cpp代码.md
-      - 在macOS上用VSCode写Python: LECTURE/vscode-python/vscode-python.md
-  - 环境配置:
-      - Soft_configuration/index.md
-      - BigData:
-          - Linux_CentOS 环境配置: Soft_configuration/BigData/Linux_Centos.md
-          - 大数据系统搭建与应用笔记: Soft_configuration/BigData/23fall_Bigdata.md
-  - 关于:
-      - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
-      - 介绍: ABOUT/intruction.md
-      - 文章编写帮助: ABOUT/help.md
-      - 测试文档: ABOUT/test.md
+    - BLOG/index.md
+    - MacOS:
+      - BLOG/MacOS/tree.md
+      - BLOG/MacOS/zoom.md
+      # - BLOG/MacOS/sharing-mac-android.md
+      - BLOG/MacOS/mad.md
+      - BLOG/MacOS/stream.md
+      - BLOG/mMcOS/intel-windows.md
+    - Linux:
+      - BLOG/Linux/vim.md
+      - BLOG/Linux/tmux.md
+      - BLOG/Linux/unix.md
+      - BLOG/Linux/kernel-compile.md
+      - BLOG/Linux/pi-start.md
+    - Markdown:
+      - BLOG/Markdown/grammars.md
+      - BLOG/Markdown/mkdocs-site.md
+      - BLOG/Markdown/mdbook-site.md
+      - BLOG/Markdown/github-pages.md
+    - Github:
+      - BLOG/GitHub/mirror.md
+    - 大数据:
+      - BLOG/BigData/Linux_Centos.md
+      - BLOG/BigData/23fall_Bigdata.md
+    - 机器学习:
+      - BLOG/MachineLearning/d2l.md
+      - BLOG/MachineLearning/ddp.md
+      - BLOG/MachineLearning/ddp-note.md
+      - BLOG/MachineLearning/parallel-load.md
+      - BLOG/MachineLearning/speech-recognition.md
+    - OS:
+      - BLOG/OS/fork-exec-spawn.md
+      - BLOG/OS/fork-example.md
+    - 计算机网络:
+      - BLOG/Network/learning.md
+      - BLOG/Network/nouns.md
+    - 数学:
+      - BLOG/Math/latex.md
+      - BLOG/Math/linear.md
+      - BLOG/Math/taylor.md
+      - BLOG/Math/max-pr.md
+      - BLOG/Math/sympy-det.md
+  - 研究:
+    - RESEARCH/index.md
+    - CG:
+      - RESEARCH/CG/games101.md
+      - RESEARCH/CG/tiger-book.md
+      - RESEARCH/CG/blender-donut.md
+      - RESEARCH/CG/blender-manual.md
+      - RESEARCH/CG/games203.md
+      - RESEARCH/CG/games105.md
+      - RESEARCH/CG/format.md
+      - RESEARCH/CG/format-usdz.md
+    - GPU:
+      - RESEARCH/Gpu/gpu.md
+      - RESEARCH/Gpu/cuda.md
+  - 学校相关:
+    - SCHOOL/index.md
+  - 考研:
+    - KAOYAN/index.md
+  - 转载:
+    - REPRODUCE/index.md
+  - DUAN:
+    - DUAN/index.md
+  - 关于网站:
+    - WEBSITE/index.md # 访客打开网站第一个看到的是 docs/index.md（会报错 The following pages exist in the docs directory, but are not included in the "nav" configuration: index.md 不要紧）  如果访客之后想要重新看到这个界面  可以在 docs/WEBSITE/index.md 找到
+    - WEBSITE/introduction.md
+    - WEBSITE/build.md
+    - WEBSITE/help.md
+    - WEBSITE/test.md
+
 
 # [UI]
 ## [top]
