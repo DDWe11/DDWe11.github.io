@@ -35,3 +35,5 @@ $\boldsymbol u$ $\boldsymbol{a}$
 
 ![](media/shangan.jpg){width="40%"}
 ![](media/shangan.jpg){width="40%"}
+- 下载测试
+<a href="media/shangan.jpg">点击下载</a>
