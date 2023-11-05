@@ -100,7 +100,6 @@ nav:
     - WEBSITE/help.md
     - WEBSITE/test.md
 
-
 # [UI]
 ## [top]
 theme:
@@ -121,7 +120,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换至日间模式
-
+  favicon: assets/favicon.png
+  icon:
+    logo: fontawesome/solid/hippo
 
   features:
     - navigation.tabs # 使用Tab来进行分类
