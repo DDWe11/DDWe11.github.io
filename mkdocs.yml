@@ -121,9 +121,6 @@ theme:
         icon: material/brightness-4
         name: 切换至日间模式
   favicon: assets/favicon.png
-  icon:
-    logo: fontawesome/solid/hippo
-
   features:
     - navigation.tabs # 使用Tab来进行分类
     - navigation.top # 返回顶部的按钮 在上滑时出现
